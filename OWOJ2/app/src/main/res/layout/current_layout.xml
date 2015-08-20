@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:background="#ffededed">
+
+        <TextView
+            android:id="@+id/khatamNo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textColor="#000"
+            android:gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:paddingBottom="@dimen/activity_vertical_margin" />
+        <TextView
+            android:id="@+id/juzText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:text="Sedang diprocess..." />
+        <TextView
+            android:id="@+id/juzNo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:textColor="#000"
+            android:gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:paddingBottom="@dimen/activity_vertical_margin" />
+        <TextView
+            android:id="@+id/doneText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:visibility="gone"
+            android:text="SUDAH SELESAI" />
+        <Button
+            android:id="@+id/doneButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:text="Selesai?" />
+    </LinearLayout>
+</RelativeLayout>
